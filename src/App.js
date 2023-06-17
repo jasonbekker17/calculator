@@ -38,8 +38,7 @@ function App() {
          <Screen text={text} result={result} />
          <div className="grid grid-cols-4 gap-4">
          <Button symbol={"C"}handleClick={clearText}/>
-         <Button symbol={"+-"}handleClick={addToText}/>
-         <Button symbol={"%"}handleClick={addToText}/>
+         <Button symbol={"%"}handleClick={addToText} color="orange" />
          <Button symbol={"/"}handleClick={addToText} color="orange" />
          <Button symbol={"7"}handleClick={addToText} />
          <Button symbol={"8"}handleClick={addToText}/>
