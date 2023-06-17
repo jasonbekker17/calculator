@@ -26,12 +26,15 @@ function App() {
   }
    
   return (
-    <div className="border rounded-xl w-80 h-96 w-56 bg-white flex  text-black font-bold   m-10 p-6"> 
+    <div className="border rounded-xl w-80 h-96 w-56 bg-orange-200 flex  text-black font-bold items-center   m-10 p-6"> 
       
-        <div className="relative ">
-         this is where the screen will be
+        <div className=" ">
+        <div>
+        <h1 className="text-1xl font-bold text-center"> The Calculator</h1>
+
+        </div>
           
-         <div className="p-1 rounded-sm  bg-black    absolute bottom-0  ">
+         <div className="p-1 rounded-sm  bg-black">
          <Screen text={text} result={result} />
          <div className="grid grid-cols-4 gap-4">
          <Button symbol={"C"}handleClick={clearText}/>
